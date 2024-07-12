@@ -18,7 +18,7 @@ function obfuscate(source,VarName,WaterMark)
         if typeof(WaterMark) == "string" and WaterMark ~= nil then
             WM = "    "..tostring(WaterMark).." | Dont skid lmao"
         else
-            WM = "    ".."WaterMark".." | Secure by GhostyDuckyy#7698"
+            WM = "    ".."WaterMark".." | Secure by skbidi rizz"
         end
 
         WM = "--[[".."\n".. tostring(WM) .."\n".."]]--".."\n\n"
