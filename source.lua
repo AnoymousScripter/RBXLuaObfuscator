@@ -6,7 +6,7 @@
 --// Source
 function obfuscate(source,VarName,WaterMark)
         warn("Started obfuscate")
-        local Variable = VarName or "Taurus_"
+        local Variable = VarName
         local WM
 
         if source == nil then
@@ -16,7 +16,7 @@ function obfuscate(source,VarName,WaterMark)
         local ticks = tick()
 
         if typeof(WaterMark) == "string" and WaterMark ~= nil then
-            WM = "    "..tostring(WaterMark).." | Secure by GhostyDuckyy#7698"
+            WM = "    "..tostring(WaterMark).." | Dont skid lmao"
         else
             WM = "    ".."WaterMark".." | Secure by GhostyDuckyy#7698"
         end
@@ -74,8 +74,7 @@ function obfuscate(source,VarName,WaterMark)
                 "PSU Fork? Nope.",
                 "Touch some grass",
                 "New update when?",
-                "GhostyDuckyy",
-                "Free obfuscator!",
+                "skibidi toilet",
                 "E",
                 random_(math.random(50,150)),
             }
